@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Let's play music together</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,400;1,100&family=Mukta:wght@300&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+</head>
+<script></script>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png" alt="logo">Spotify</li>
+            <li>Home</li>
+            <li>Services</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="playList">
+            <h1>Join us in this world of music!!</h1>
+            <div class="songList">
+                <div class="songItem">
+                    <img alt="pic">
+                    <span class="songName">Safari</span>
+                    <span class="songSpecs"><span class="timestamp">02:30</span><i id="0" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img alt="pic">
+                    <span class="songName">Safari</span>
+                    <span class="songSpecs"><span>02:30</span><i id="1" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img alt="pic">
+                    <span class="songName">Safari</span>
+                    <span class="songSpecs"><span>02:30</span><i id="2" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img alt="pic">
+                    <span class="songName">Safari</span>
+                    <span class="songSpecs"><span>02:30</span><i id="3" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img alt="pic">
+                    <span class="songName">Safari</span>
+                    <span class="songSpecs"><span>02:30</span><i id="4" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img alt="pic">
+                    <span class="songName">Safari</span>
+                    <span class="songSpecs"><span>02:30</span><i id="5" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img alt="pic">
+                    <span class="songName">Safari</span>
+                    <span class="songSpecs"><span>02:30</span><i id="6" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img alt="pic">
+                    <span class="songName">Safari</span>
+                    <span class="songSpecs"><span>02:30</span><i id="7" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img alt="pic">
+                    <span class="songName">Safari</span>
+                    <span class="songSpecs"><span>02:30</span><i id="8" class="fa-regular songItemPlay fa-circle-play"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="progress"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" class="range" id="progressBar" min="0" max="100" class="slider" value=0>
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-backward-step fa-3x" id="backward"></i>
+            <i class="fa-regular fa-circle-play fa-3x " id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step fa-3x" id="forward"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="playing" width="50px" id="gif">
+            <span id="current_song">Safari- Serena</span>
+                
+            </div>
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/28a7e79334.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
